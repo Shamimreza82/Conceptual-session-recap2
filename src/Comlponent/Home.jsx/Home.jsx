@@ -23,7 +23,7 @@ const Home = () => {
     }
     actorData.forEach(total => {count = count + total.salary})
     const remaningBalance = 20000 - count; 
-        if(remaningBalance > 20000 ) {
+        if(count > 20000 ) {
             return alert ("Low Balance")
         }
         else {
